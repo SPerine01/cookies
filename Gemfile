@@ -1,0 +1,1 @@
+gem "paperclip", "~> 4.2"
