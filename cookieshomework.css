@@ -1,17 +1,15 @@
 *{
 	background-color: #7700EE;
+	color: #FEFEFE;
 }
 
-#hip-hop {
+#show_it {
 	display: none;
+	text-align: center;
 }
 
 h1, h4 {
 	text-align: center;
-}
-
-h4 {
-	font-style: italic;
 }
 
 body {
@@ -19,63 +17,6 @@ body {
 	color: #FEFEFE;
 }
 
-button {
+/*button {
 	text-align: center;
-}
-
-.wu {
-	color: #FEFEFE;
-	width: 100px;
-	height: 100px;
-	left: 100px;
-	top: 100px;
-	font-size: 23px;
-	border-radius: 5px;
-	margin-left: 10px;
-	text-align: center;
-}
-
-.big {
-	color: #FEFEFE;
-	width: 120px;
-	height: 100px;
-	left: 300px;
-	top: 100px;
-	font-size: 23px;
-	border-radius: 5px;
-	text-align: center;
-}
-
-.black {
-	color: #FEFEFE;
-	width: 100px;
-	height: 100px;
-	left: 500px;
-	top: 100px;
-	font-size: 23px;
-	border-radius: 5px;
-	text-align: center;
-}
-
-.tribe {
-	color: #FEFEFE;
-	width: 100px;
-	height: 100px;
-	left: 700px;
-	top: 100px;
-	font-size: 23px;
-	border-radius: 5px;
-	margin-left: 5px;
-	text-align: center;
-}
-
-.rock {
-	color: #FEFEFE;
-	width: 120px;
-	height: 100px;
-	left: 900px;
-	top: 100px;
-	font-size: 23px;
-	border-radius: 5px;
-	text-align: center;
-}
+}*/

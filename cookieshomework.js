@@ -1,21 +1,22 @@
 $(document).ready(function(){
-	// if(location.search){
-	// 	params = location.search.split("?") [1];
-	// 	value = params.split("=")[1];
-	// 	Cookies.set("value_submitted", value);
-	// 	}
+	if(location.search){
+		params = location.search.split("?") [1];
+		value = params.split("=")[1];
+		Cookies.set("deeznutz", value);
+		}
 
-	// if(Cookies.get("value_submitted")) {
-	// 	$("#hip-hop").html(Cookies.get("value_submitted"));
-	// }
 
 	$("#submit").click(function() {
-		$("#form").hide();
+		$("#form").hide(500);
 		// $("#hip-hop").slideToggle(2500);
 	});
 
-	// $("#submit-button").onclick(function () {
-	// $("#hip-hop").fadeIn(3000);
-	// });
-
 });
+
+
+$(".butty").click(function(){
+		$(".butty").hide("fast");
+		$(".butty").html( + Cookies.get("<p>'deeznutz'</p>"));
+		$("#words").fadeOut("fast");
+		$("#show_it").fadeIn("2500");
+	});
